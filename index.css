@@ -46,7 +46,7 @@ input{
     background-color: #ffffff;
 }
 .header{
-    background-color: #f8765e;
+    background-color: salmon;
     text-align: center;
     padding-top: 70px;
 }
@@ -79,12 +79,12 @@ input{
 .divider-1 {
     width: 60px;
     height: 5px;
-    background-color: #f8765e;
+    background-color: salmon;
   }
 .Oval {
     width: 296px;
     height: 296px;
-    background-color: #f8765e;
+    background-color: salmon;
   }
 .premium{
     margin-left: 20px;
@@ -100,10 +100,10 @@ h4{
     line-height: 1.33;
     letter-spacing: normal;
     text-align: center;
-    color: #f8765e;
+    color: salmon;
 }
 .footer{
-    background-color: #f8765e;
+    background-color: salmon;
     padding:100px 0px;
     color: white;
   }
@@ -136,7 +136,7 @@ h4{
     width: 300px;
     height: 660px;
     border-radius: 20px;
-    background-color: #f8765e;
+    background-color: salmon;
     margin-left: 60px;
   }
 .testimonialsturquesa{
@@ -163,7 +163,7 @@ h4{
     font-style: normal;
     line-height: 1.25;
     letter-spacing: normal;
-    color: #f8765e;
+    color: salmon;
   
   }
 .quote{
@@ -171,7 +171,7 @@ h4{
       margin-top: 100px;
   }
   h5{
-    color: #f8765e;   
+    color: salmon;   
   }
 h6{
       position:relative;
@@ -194,17 +194,22 @@ h6{
   }
    .separador{
     height: 60px;
-    color: #f8765e; 
+    color: salmon; 
    }
    ::placeholder{
         color: silver;
         font-size: 20px;
         margin-left: 50px;  
    }
-  .divider{
-
-  }
   h3{
       margin-top: 50px;
 
+  }
+  @media (min-width:850px){
+   .premium{
+    justify-content:center;
+   }
+    
+
+}
   }
