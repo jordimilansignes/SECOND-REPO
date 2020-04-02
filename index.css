@@ -3,14 +3,16 @@
     margin: 0;
 }
 .imagenprincipal{
-    margin-top: 60px;
+    margin-right:60px;
+    margin-top: 40px;
 }
 h1{
     color:#ffffff;
 }
 h2{
     color:white;
-    padding:30px;
+    margin-left:50px;
+    margin-top: 50px;
 }
 #intro {
     width: 315px;
@@ -49,6 +51,7 @@ input{
     background-color: salmon;
     text-align: center;
     padding-top: 70px;
+    padding-bottom: 40px;;
 }
 .partecentral{
     align-content: space-around;
@@ -87,7 +90,8 @@ input{
     background-color: salmon;
   }
 .premium{
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-top: 50px;;
 }
 h4{
     width: 315px;
@@ -112,9 +116,9 @@ h4{
       margin-top: -300px;
       position: relative
   }
-.linksdeabajo{
+.linksdebajo{
       color: white;
-      padding:60px;
+      padding:110px;
   }
 .reserved{
       color:white;
@@ -153,7 +157,7 @@ h4{
   }
 .whattheysay{
     position: relative;
-    margin-bottom: -60px;
+    margin-bottom: -0px;
     width: 131px;
     height: 48px;
     font-family: Roboto;
@@ -168,14 +172,15 @@ h4{
   }
 .quote{
       position:relative;
-      margin-top: 100px;
+      margin-top: 50px;
   }
   h5{
     color: salmon;   
   }
 h6{
       position:relative;
-      margin-bottom: 30px;
+      margin-bottom: 100px;
+      margin-left: 90px;;
       width: 240px;
       height: 80px;
       font-family: Roboto;
@@ -205,7 +210,13 @@ h6{
       margin-top: 50px;
 
   }
+  .subscribedown{
+      padding:90px;
+  }
   @media (min-width:850px){
    .premium{
     justify-content:center;
+   }
+   h2{
+      margin-left: 150px; 
    }
